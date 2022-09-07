@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a | find -name "*.md" -print | rev | cut -d/ -f1 | rev | cut -d. -f1 | LC_ALL=C sort

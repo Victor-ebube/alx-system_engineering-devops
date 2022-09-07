@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "C\nJavascript\nASP\nPHP\nPHP\nPHP\nC\nC++\nPython" | sort -n | uniq -u
+sort -n | uniq -u
