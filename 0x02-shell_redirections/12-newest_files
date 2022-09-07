@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | grep -v / | sort -r -n | head -n 10
+find . -type f -print | rev | cut -d/ -f1 | rev | sort -r -n | head -n 10

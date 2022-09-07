@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | find -name "*.md" -print | rev | cut -d/ -f1 | rev | cut -d. -f1 | LC_ALL=C sort
+ls -a | find -name "*.gif" -print | rev | cut -d/ -f1 | rev | cut -d. -f1 | LC_ALL=C sort
